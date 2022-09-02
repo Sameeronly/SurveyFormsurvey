@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <style>
+        table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+    font-weight: lighter;
+}
+td, th {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+textarea{
+    width: 1500px;
+    height: 130px;
+}
+    </style>
+</head>
+<body style="font-family:   Arial">
+    <form action="/action_page.php">
+        
+        <label for="fname"> <b>Name</b> <span style="color: red;">*</span></label><br>
+        <input type="text" id="fname" name="fname" value="" style="width : 220px;">
+        <div style="display:inline-block ;padding-left: 50px;">
+        <input type="text" id="lname" name="lname" value="" style="width : 220px;">
+    </div>
+    <br>
+    <br>
+<div >
+    <label for="email"> <b>Email</b> <span style="color: red;">*</span></label><br>
+        <input type="email" id="email" name="email" value="" style="width : 500px;">
+</div>
+    <br> 
+    <p><b>Your Experience</b><span style="color: red;">*</span></p> 
+    <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
+    <p>Overall how would you rate your experience with us?</p>
+    <p><b>How satisfied are you with</b><span style="color: red;">*</span></p>
+    <table>
+        <tr>
+          <th></th>
+          <th>Very unsatisfied</th>
+          <th>Unsatisfied</th>
+          <th>Neutral</th>
+          
+          <th>Satisfied</th>
+          <th>Very satisfied</th>
+          
+        </tr>
+        <tr>
+          <td>Purchase</td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+        </tr>
+        <tr>
+          <td>Service</td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+        </tr>
+        <tr>
+          <td>company Overall</td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+        </tr>
+       
+      </table>
+
+      <p><b>How likely are you to</b><span style="color: red;">*</span></p>
+    <table>
+        <tr>
+          <th></th>
+          <th>Very unlikely</th>
+          <th>Unlikely</th>
+          <th>Neutral</th>
+          
+          <th>Likely</th>
+          <th>Very likely</th>
+          
+        </tr>
+        <tr>
+          <td>Buy from us again</td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+        </tr>
+        <tr>
+          <td>Recommend our product to others</td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+        </tr>
+        <tr>
+          <td>Recommend our company to others</td>
+          <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+            <td>
+          <div class="radio">
+           <input type="radio">
+            </div>
+            </td>
+        </tr>
+       
+      </table>
+      <p><b>Additional Comments or suggestions
+      </b></p>
+      <textarea></textarea>
+      
+        <br><br>
+        <input type="submit" value="Submit" style="padding:9px;">
+      </form> 
+</body>
+</html>
